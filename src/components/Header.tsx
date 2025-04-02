@@ -23,9 +23,6 @@ const Header = () => {
         <Link href="/" className="text-white hover:text-nyron-primary transition-colors">
           HOME
         </Link>
-        <Link href="/products" className="text-white hover:text-nyron-primary transition-colors">
-          PRODUCTS
-        </Link>
         <Link href="/#reviews" className="text-white hover:text-nyron-primary transition-colors">
           REVIEWS
         </Link>
