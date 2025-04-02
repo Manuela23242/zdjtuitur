@@ -24,12 +24,6 @@ const ProductPage = () => {
       popular: false
     },
     {
-      id: "3x_months",
-      title: "3x Months",
-      price: "€54.90",
-      popular: true
-    },
-    {
       id: "lifetime",
       title: "Lifetime",
       price: "€89.90",
@@ -52,8 +46,8 @@ const ProductPage = () => {
 
               <div className="rounded-lg overflow-hidden border border-gray-800 bg-[#131314] mb-8">
                 <Image
-                  src="/images/ui-screenshot.png"
-                  alt="Nyron AI Interface"
+                  src="/images/ui-screenshott.png"
+                  alt="Freeze AI Interface"
                   width={600}
                   height={400}
                   className="w-full object-cover"
@@ -135,10 +129,6 @@ const ProductPage = () => {
                     <span>NVIDIA/AMD/INTEL</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-400">Supported Setups</span>
-                    <span>Single/Dual-PC</span>
-                  </div>
-                  <div className="flex justify-between">
                     <span className="text-gray-400">Cloud Gaming Support</span>
                     <span>Yes</span>
                   </div>
@@ -170,34 +160,7 @@ const ProductPage = () => {
           <p className="text-nyron-text mb-6">
             Recommended for extra safety. If buying from Nova, you will receive an all-in-one Arduino hardware device with pre-flashed firmware—just plug and play. For all other hardware devices, Nyron provides detailed setup instructions.
           </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-8">
-            <div className="bg-[#131314] rounded-lg p-4 flex flex-col items-center border border-gray-800">
-              <div className="w-24 h-24 flex items-center justify-center mb-3">
-                <Image
-                  src="/images/arduino.png"
-                  alt="Arduino Basic"
-                  width={80}
-                  height={80}
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-sm text-center">Arduino Basic (for 1-PC Setups)</span>
-            </div>
-
-            <div className="bg-[#131314] rounded-lg p-4 flex flex-col items-center border border-gray-800">
-              <div className="w-24 h-24 flex items-center justify-center mb-3">
-                <Image
-                  src="/images/arduino.png"
-                  alt="Arduino Hidra"
-                  width={80}
-                  height={80}
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-sm text-center">Arduino Hidra (1-PC & 2-PC)</span>
-            </div>
-
+          
             <div className="bg-[#131314] rounded-lg p-4 flex flex-col items-center border border-gray-800">
               <div className="w-24 h-24 flex items-center justify-center mb-3">
                 <Image
@@ -209,19 +172,6 @@ const ProductPage = () => {
                 />
               </div>
               <span className="text-sm text-center">Kmbox Net</span>
-            </div>
-
-            <div className="bg-[#131314] rounded-lg p-4 flex flex-col items-center border border-gray-800">
-              <div className="w-24 h-24 flex items-center justify-center mb-3">
-                <Image
-                  src="/images/kmbox.png"
-                  alt="Kmbox B+"
-                  width={80}
-                  height={80}
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-sm text-center">Kmbox B+</span>
             </div>
 
             <div className="bg-[#131314] rounded-lg p-4 flex flex-col items-center border border-gray-800">
