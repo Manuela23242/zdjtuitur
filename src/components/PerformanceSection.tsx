@@ -11,12 +11,12 @@ const PerformanceSection = () => {
           <div className="flex-1 flex justify-center md:justify-start">
             <div className="relative rounded-lg overflow-hidden border border-gray-800 p-4 bg-[#131314] shadow-2xl">
               <div className="absolute top-2 left-2 bg-[#0c0c0d] px-3 py-1 rounded text-sm">
-                <span className="text-white font-medium">NYRON</span>
+                <span className="text-white font-medium">FREEZE</span>
                 <span className="text-green-500 ml-2">227 FPS</span>
               </div>
               <Image
-                src="/images/performance-chart.png"
-                alt="Nyron Performance Chart"
+                src="/images/performance-chartt.png"
+                alt="Freeze Performance Chart"
                 width={400}
                 height={220}
                 className="object-contain"
@@ -30,7 +30,7 @@ const PerformanceSection = () => {
             </h2>
 
             <p className="text-nyron-text mb-6">
-              Nyron is perfectly optimized to run multithreaded, which is why it even supports older GPUs. Using Nyron does not affect your input delay and requires minimal GPU usage. We have ensured that everything, including Aim Tracking, runs smoothly. Additionally, we provide tips to maximize performance, guaranteeing the best possible user experience.
+              Freeze is perfectly optimized to run multithreaded, which is why it even supports older GPUs. Using Nyron does not affect your input delay and requires minimal GPU usage. We have ensured that everything, including Aim Tracking, runs smoothly. Additionally, we provide tips to maximize performance, guaranteeing the best possible user experience.
             </p>
           </div>
         </div>
